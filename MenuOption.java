@@ -6,10 +6,11 @@ public class MenuOption {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Choose an option: \n 1. Prime Number,\n 2. Palindrome Number,\n 3. Factorial Number,\n 4. Armstrong Number, \n 5. Perfect Number");
-        int choice = sc.nextInt();
-
-        switch (choice) {
+        int choice = sc.nextInt(); 
+              
+     switch (choice) {
             case 1:
+            
                 System.out.println("You chose Prime Number.");
                 int i, m = 0, flag = 0;
                 
